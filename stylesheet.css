@@ -4,9 +4,30 @@
 }
 body {
         padding: 2em;
-        font-family: 'Cormorant', serif;
+        font-family: 'Helvetica', serif;
         font-size: 16px;
+        color: white;
+        background-color: #000000;
+        text-align: left;
       }
+img {
+  width: 100%;
+  max-width: 800px;
+  float: right;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1em;
+}
+
+a {
+  color: white
+}
+a.visit {
+   color: white;
+}
 
 #bio h2{
   margin-bottom: .5em;
@@ -28,6 +49,8 @@ p.date {
 }
 
 footer {
+  display: block;
+  font-size: .625em;
   position: absolute;
   bottom: 2em;
 }
