@@ -4,52 +4,66 @@
 }
 body {
         padding: 2em;
-        font-family: 'Helvetica', serif;
+        font-family: 'Georgia', serif;
         font-size: 16px;
-        color: white;
-        background-color: #000000;
         text-align: left;
+        max-width: 380px;
       }
 img {
-  max-width: 800px;
-  float: left;
+  max-width: 380px;
+  width: 100%;
+  margin-bottom: 1em;
 }
 h1 {
-  font-size: 1.5em;
+  font-size: 1em;
+  margin-bottom: .4em;
 }
 h2 {
-  font-size: 1em;
+  font-size: .925em;
+  margin-bottom: 1.8em;
+  font-weight: normal;
+  line-height: 1.6em;
 }
 
+p {
+  font-size: .925em;
+  margin-bottom: 1.5em;
+  line-height: 1.8em;
+}
+#cv {
+  font-size: .925em;
+  margin-bottom: 2em;
+}
+.organization h4 {
+  font-size: .925em;
+  margin-bottom: 0px;
+  font-weight: normal;
+  padding-right: .2em;
+  display: inline;
+}
+h4.available {
+  font-weight: bold;
+}
+#otherstuff {
+  font-size: .925em;
+}
+#otherstuff h4 {
+  font-size: .925em;
+  margin-bottom: 1em;
+}
 a {
-  color: white
+  color: blue;
 }
 a.visit {
-   color: white;
-}
-
-#bio h2{
-  margin-bottom: .5em;
-}
-
-p#fulltime-description {
-  margin-bottom: 1em
-}
-#fulltime h4 {
-  display: inline-block;
-  margin-bottom: .5em;
+  color: blue;
 }
 p.date {
-  float: right;
+  color: #919191;f
+  display: inline-block;
+  margin-bottom: .4em;
+  display: inline;
 }
 
 .section {
   margin-bottom: 1em;
-}
-
-footer {
-  display: block;
-  font-size: .625em;
-  position: absolute;
-  bottom: 2em;
 }
