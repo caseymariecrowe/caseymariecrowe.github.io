@@ -163,7 +163,7 @@ p#number {
           max-width: 100%;
           background-color: green;
           padding: 2em;
-          font-size: 28px;
+          font-size: 32px;
           line-height: 1.8em;
         }
       img {
@@ -179,7 +179,6 @@ p#number {
         font-weight: normal;
         line-height: 1.6em;
       }
-
       p {
         font-size: .925em;
         margin-bottom: 1.5em;
