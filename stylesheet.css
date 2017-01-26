@@ -2,15 +2,24 @@
   margin: 0;
   padding: 0;
 }
-body {
-        padding: 1em;
-        font-family: 'Georgia', serif;
-        font-size: 20px;
-        text-align: left;
-        max-width: 768px;
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 100%;
+        background-color: red;
+        padding: 2em;
       }
+    img {
+      width: 100%;
+    }
+}
+body {
+  max-width: 800px;
+  padding: 1em;
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  text-align: left;
+}
 img {
-  max-width: 768px;
   width: 100%;
   margin-bottom: 1em;
 }
@@ -61,7 +70,7 @@ p.date {
   color: #919191;f
   display: inline-block;
   margin-bottom: .4em;
-  display: inline;
+  display: inline-block;
 }
 
 .section {
