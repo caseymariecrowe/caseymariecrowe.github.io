@@ -12,7 +12,7 @@ body {
   font-size: 3.2vw;
   line-height: 7vw;
 }
-#vimeo_images {
+.portfolio_images {
   max-width: 500px;
   margin: 0 auto;
 }
