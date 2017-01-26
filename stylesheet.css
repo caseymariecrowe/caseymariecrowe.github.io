@@ -8,6 +8,7 @@ body {
   font-family: 'Georgia', serif;
   text-align: left;
   font-size: 18px;
+  line-height: 1.8em;
 }
 img {
   width: 100%;
@@ -23,13 +24,11 @@ h2 {
   font-size: .925em;
   margin-bottom: 1.8em;
   font-weight: normal;
-  line-height: 1.6em;
 }
 
 p {
   font-size: .925em;
   margin-bottom: 1.5em;
-  line-height: 1.8em;
 }
 #cv {
   font-size: .925em;
@@ -108,12 +107,10 @@ p#number {
         font-size: .925em;
         margin-bottom: 1.8em;
         font-weight: normal;
-        line-height: 1.6em;
       }
       p {
         font-size: .925em;
         margin-bottom: 1.5em;
-        line-height: 1.8em;
       }
       #cv {
         font-size: .925em;
