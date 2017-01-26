@@ -2,40 +2,34 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  max-width: 480px;
+  max-width: 1300px;
+  margin: 0 auto;
   padding: 1em;
   font-family: 'Georgia', serif;
   text-align: left;
-  font-size: 18px;
-  line-height: 1.8em;
+  font-size: 3.2vw;
+  line-height: 7.8vw;
 }
 img {
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 1em;
 }
-
-
 h1 {
-  font-size: 1em;
   margin-bottom: .4em;
 }
 h2 {
-  font-size: .925em;
   margin-bottom: 1.8em;
   font-weight: normal;
 }
-
 p {
-  font-size: .925em;
   margin-bottom: 1.5em;
 }
 #cv {
-  font-size: .925em;
   margin-bottom: 2em;
 }
 .organization h4 {
-  font-size: .925em;
   margin-bottom: 0px;
   font-weight: normal;
   padding-right: .2em;
