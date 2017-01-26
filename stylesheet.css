@@ -44,11 +44,7 @@ p {
 h4.available {
   font-weight: bold;
 }
-#otherstuff {
-  font-size: .925em;
-}
 #otherstuff h4 {
-  font-size: .925em;
   margin-bottom: 1em;
 }
 a {
@@ -62,7 +58,6 @@ p.date {
   display: inline-block;
   margin-bottom: .4em;
 }
-
 .section {
   margin-bottom: 1em;
 }
@@ -78,81 +73,4 @@ p#number {
   font-size: 2em;
   margin-bottom: .5em;
   margin-top: .2em;
-}
-
-
-@media only screen and (min-width: 320px){
-  body {
-    font-size: 28px;
-    line-height: 1.8em;
-  }
-}
-
-@media only screen and (min-width: 768px){
-      body {
-          max-width: auto;
-          max-width: 100%;
-          padding: 1em;
-          font-size: 40px;
-          line-height: 1.8em;
-        }
-      img {
-        width: 100%;
-      }
-      h1 {
-        font-size: 1em;
-        margin-bottom: .4em;
-      }
-      h2 {
-        font-size: .925em;
-        margin-bottom: 1.8em;
-        font-weight: normal;
-      }
-      p {
-        font-size: .925em;
-        margin-bottom: 1.5em;
-      }
-      #cv {
-        font-size: .925em;
-        margin-bottom: 2em;
-      }
-      .organization h4 {
-        font-size: .925em;
-        margin-bottom: 0px;
-        font-weight: normal;
-        padding-right: .2em;
-        display: inline;
-      }
-      h4.available {
-        font-weight: bold;
-      }
-      #otherstuff {
-        font-size: .925em;
-      }
-      #otherstuff h4 {
-        font-size: .925em;
-        margin-bottom: 1em;
-      }
-      a {
-        color: blue;
-      }
-      a.visit {
-        color: blue;
-      }
-      .section {
-        margin-bottom: 1em;
-      }
-      footer {
-        padding-top: 2em;
-      }
-      footer p{
-        margin-bottom: 0em;
-        line-height: 1.2em;
-        font-size: .8em;
-      }
-      p#number {
-        font-size: 2em;
-        margin-bottom: .5em;
-        margin-top: .2em;
-      }
 }
