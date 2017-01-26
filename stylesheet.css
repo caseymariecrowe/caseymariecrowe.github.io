@@ -105,7 +105,6 @@ p#number {
       font-weight: normal;
       line-height: 1.6em;
     }
-
     p {
       font-size: .925em;
       margin-bottom: 1.5em;
@@ -228,5 +227,4 @@ p#number {
         margin-bottom: .5em;
         margin-top: .2em;
       }
-
-    }
+}
