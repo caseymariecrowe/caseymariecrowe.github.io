@@ -59,7 +59,7 @@
 				<div id="48" class="box"></div>
 				<div id="49" class="box"></div>
 			</div>
-			<div id="play_color"><img id="logo" src="file:///Users/kevindavidcrowe/Desktop/Kevin_David_Crowe_Brand/Portfolio/Digital/Colors_Game/color_logo.png"><p id="header">The Color Game</p><p id="byline">This is your color. Each time you click on this color correctly, you'll get a point. See how many you can do in 1 minute.</div>
+			<div id="play_color"><p id="header">The Color Game</p><p id="byline">This is your color. Each time you click on this color correctly, you'll get a point. See how many you can do in 1 minute.</div>
 			<div id="toolbelt">
 				<div id="score">0</div>
 				<div id="time">60</div>
@@ -110,13 +110,13 @@ $('#play_color').click(
 
 //RANDOM DIV NUMBER
 var min = 0;
-var max = 99;
+var max = 49;
 
 // THIS FUNCTION WILL REFRESH THE BOARD WITH COLORS
 refreshBoard = function(){
 	$('.box').animate({backgroundColor: '#FFFFFF'}, 200);
 	var random = Math.floor(Math.random() * (max - min + 1)) + min;
-	for(i=0;i<100;i++){
+	for(i=0;i<50;i++){
 		if(i == random){
 			$('#' + i).removeClass('wrong');
 			$('#' + i).addClass('your_color');
