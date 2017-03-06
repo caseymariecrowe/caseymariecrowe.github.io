@@ -61,6 +61,9 @@ body {
   line-height: 30px;
   margin: 0 0 30px 0;
 }
+#description p.small {
+  font-size: 18px;
+}
 #description a{
   text-decoration: none;
   color: #000;
