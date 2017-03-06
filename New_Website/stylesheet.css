@@ -34,6 +34,11 @@ body {
   height: 56px;
   background-color: #000;
   position: fixed;
+  transition:         all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition:    all 0.1s ease;
+  -ms-transition:     all 0.1s ease;
+  -o-transition:      all 0.1s ease;
 }
 #logo img {
   width: 81px;
@@ -42,6 +47,7 @@ body {
 
 }
 #content {
+  min-height: calc(100vh - 570px);
   padding: 120px 30px 20px;
 }
 #description p{
@@ -134,6 +140,7 @@ footer {
   color: #777;
   padding: 75px 0;
   background-color: #f9f9f9;
+  height: 380px;
 }
 p#footer_header {
   font-size: 22px;

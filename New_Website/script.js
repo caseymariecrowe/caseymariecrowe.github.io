@@ -1,29 +1,59 @@
-function MenuOff() {
-  $( '#mobile_nav' ).fadeOut('fast');
-  $( 'body' ).css( 'overflow', 'visible' );
-  $( '.mobile_nav_item_1' ).fadeOut();
-  $( '.mobile_nav_item_2' ).fadeOut();
-  $( '.mobile_nav_item_3' ).fadeOut();
-  $( '.mobile_nav_item_4' ).fadeOut();
-  $( '.mobile_nav_item_5' ).fadeOut();
-};
-
-function MenuOn() {
-  $( '.mobile_nav_item_1' ).delay(100).fadeIn();
-  $( '.mobile_nav_item_2' ).delay(120).fadeIn();
-  $( '.mobile_nav_item_3' ).delay(140).fadeIn();
-  $( '.mobile_nav_item_4' ).delay(160).fadeIn();
-  $( '.mobile_nav_item_5' ).delay(180).fadeIn();
-  $( '#mobile_nav' ).fadeIn('fast');
-  $( 'body' ).css( 'overflow', 'hidden' );
-};
-
-
+function pixelColors(element, property) {
+    var color = 'rgb(' + Math.floor(Math.random() * 255) + ',' + Math.floor(Math.random() * 255) + ',' + Math.floor(Math.random() * 255) + ')';
+    var transform = {};
+    transform[property] = color;
+    $(element).css(transform);
+}
 
 $(document).ready(function() {
 
+    var colorLoop;
+    $(document).on('mouseenter', '.js-animate-color', function() {
+      var $el = $(this)
+      $el.data('originalColor', $el.css('color'))
+      colorLoop = setInterval(function() {
+        pixelColors($el, 'color')
+      }, 100);
+    })
+    $(document).on('mouseleave', '.js-animate-color', function() {
+      var $el = $(this)
+      clearInterval(colorLoop);
+      $el.css( 'color', $el.data('originalColor'));
+    })
+    $(document).on('mouseenter', '.js-animate-bg-color', function() {
+      var $el = $(this)
+      $el.data('originalColor', $el.css('background-color'))
+      colorLoop = setInterval(function() {
+        pixelColors($el, 'background-color')
+      }, 100);
+    })
+    $(document).on('mouseleave', '.js-animate-bg-color', function() {
+      var $el = $(this)
+      clearInterval(colorLoop);
+      $el.css( 'background-color', $el.data('originalColor'));
+    })
+
     $('body').fadeIn(700);
 
+    function MenuOff() {
+      $( '#mobile_nav' ).fadeOut('fast');
+      $( 'body' ).css( 'overflow', 'visible' );
+      $( '.mobile_nav_item_1' ).fadeOut();
+      $( '.mobile_nav_item_2' ).fadeOut();
+      $( '.mobile_nav_item_3' ).fadeOut();
+      $( '.mobile_nav_item_4' ).fadeOut();
+      $( '.mobile_nav_item_5' ).fadeOut();
+    };
+
+    function MenuOn() {
+      $( '.mobile_nav_item_1' ).delay(100).fadeIn();
+      $( '.mobile_nav_item_2' ).delay(120).fadeIn();
+      $( '.mobile_nav_item_3' ).delay(140).fadeIn();
+      $( '.mobile_nav_item_4' ).delay(160).fadeIn();
+      $( '.mobile_nav_item_5' ).delay(180).fadeIn();
+      $( '#mobile_nav' ).fadeIn('fast');
+      $( 'body' ).css( 'overflow', 'hidden' );
+    };
 
     var homePage;
     homePage = $( '#home_page' ).html();
