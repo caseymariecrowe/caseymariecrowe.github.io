@@ -10,40 +10,40 @@ $(document).ready(function() {
     var colorLoop;
 
 
-    $(document).on('mouseenter', '.js-animate-border', function() {
+    $(document).on('vmouseover mouseover', '.js-animate-border', function() {
       var $el = $(this)
       $el.data('originalColor', $el.css('border-color'))
       colorLoop = setInterval(function() {
         pixelColors($el, 'border-color')
       }, 100);
     })
-    $(document).on('mouseleave', '.js-animate-border', function() {
+    $(document).on('vmouseout mouseout', '.js-animate-border', function() {
       var $el = $(this)
       clearInterval(colorLoop);
       $el.css( 'border-color', $el.data('originalColor'));
     })
 
 
-    $(document).on('mouseenter', '.js-animate-color', function() {
+    $(document).on('vmouseover mouseover', '.js-animate-color', function() {
       var $el = $(this)
       $el.data('originalColor', $el.css('color'))
       colorLoop = setInterval(function() {
         pixelColors($el, 'color')
       }, 100);
     })
-    $(document).on('mouseleave', '.js-animate-color', function() {
+    $(document).on('vmouseout mouseout', '.js-animate-color', function() {
       var $el = $(this)
       clearInterval(colorLoop);
       $el.css( 'color', $el.data('originalColor'));
     })
-    $(document).on('mouseover', '.js-animate-bg-color', function() {
+    $(document).on('vmouseover mouseover', '.js-animate-bg-color', function() {
       var $el = $(this)
       $el.data('originalColor', $el.css('background-color'))
       colorLoop = setInterval(function() {
         pixelColors($el, 'background-color')
       }, 100);
     })
-    $(document).on('mouseout', '.js-animate-bg-color', function() {
+    $(document).on('vmouseout mouseout', '.js-animate-bg-color', function() {
       var $el = $(this)
       clearInterval(colorLoop);
       $el.css( 'background-color', $el.data('originalColor'));
