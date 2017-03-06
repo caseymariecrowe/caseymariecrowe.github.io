@@ -11,7 +11,6 @@ body {
   font-weight: 300;
   display: none;
   text-rendering: optimizeLegibility;
-  text-rendering: geometricPrecision;
   font-smooth: always;
   font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -26,6 +25,7 @@ body {
   top:0;
   background-color: #fff;
   z-index:3;
+  height: 90px;
 }
 #logo {
   width: 80px;
@@ -33,12 +33,13 @@ body {
   margin: 15px;
   height: 56px;
   background-color: #000;
-
+  position: fixed;
 }
 #logo img {
   width: 81px;
   height: 58px;
   margin-top: -1px;
+
 }
 #content {
   padding: 120px 30px 20px;
@@ -69,7 +70,7 @@ body {
   padding: 20px 20px;
   margin: 16px 12px 0 0;
 }
-#navigation_menu {
+#mobile_nav {
   display: none;
   height: 100%;
   width: 100%;
@@ -77,21 +78,22 @@ body {
   top: 0;
   background-color: #FFF;
 }
+#regular_nav {
+  display:none;
+}
 ul {
   list-style: none;
+}
+#mobile_nav ul {
   padding: 35px 75px 25px 30px;
 }
-.nav_item_1,.nav_item_2,.nav_item_3,.nav_item_4,.nav_item_5  {
-  display: none;
-}
-li a{
-  color: #000000;
+#mobile_nav a{
   text-decoration: none;
   font-size: 22px;
   display: block;
   margin: 0 0 20px 0;
 }
-li a:hover {
+#mobile_nav a:hover {
   text-decoration: underline;
 }
 .work_image {
@@ -181,6 +183,7 @@ p#copywrite {
     width: 149px;
     height: 103px;
     margin: 25px 0 15px 30px;
+    top:0;
     position: fixed;
     z-index:2;
   }
@@ -193,39 +196,28 @@ p#copywrite {
     background-color: transparent;
     border:none;
     position:static;
+    height: 50px;
   }
-  #navigation_menu {
-    display: inline-block;
-    position: relative;
-    padding: 50px 0px 0px 195px;
-    height: auto;
-    width: auto;
-    z-index: 1
+  #regular_nav {
+    font-size: 18px;
+    display: block;
+  }
+  #regular_nav {
+    margin: 50px 0 50px 193px;
+    display: block;
+  }
+  #regular_nav a {
+    display: inline;
+    padding: 0 0 0 25px;
+  }
+  #regular_nav li {
+    display: inline;
   }
   #nav_icon_on {
     display: none;
   }
-  #nav_icon_off {
-    display: none;
-  }
   .active_page {
     text-decoration:underline;
-  }
-  ul {
-    float: none;
-    padding: 0px;
-    margin: 0 0 20px 0;
-  }
-  .nav_item_1,.nav_item_2,.nav_item_3,.nav_item_4,.nav_item_5  {
-    display: inline-block;
-  }
-  li {
-    display: inline;
-    padding-left: 25px;
-  }
-  li a{
-    font-size: 18px;
-    margin: 0;
   }
   #content {
     max-width: 768px;
@@ -243,13 +235,14 @@ p#copywrite {
 }
 /* Desktop Styles */
 @media all and (min-width: 1418px){
-  #navigation_menu {
+  #regular_nav {
     position: fixed;
+    margin: 50px 30px 0 0;
     right: 0;
     padding: 0;
   }
-  ul {
-    padding: 50px 25px 0px 0px;
+  #header {
+    height: 0;
   }
   #content {
     max-width: 720px;
