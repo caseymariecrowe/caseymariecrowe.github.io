@@ -41,6 +41,11 @@ body {
   -o-transition:      all 0.2s ease;
 }
 #logo img {
+  transition:         all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition:    all 0.2s ease;
+  -ms-transition:     all 0.2s ease;
+  -o-transition:      all 0.2s ease;
   width: 81px;
   height: 58px;
   margin-top: -1px;
@@ -116,25 +121,18 @@ p.work_description {
 a.button {
   display: inline-block;
   margin: 0 0 40px 0;
-  border: solid 1px #000;
+  border: solid 1px;
+  border-color: #000;
   border-radius: 50px;
   font-size: 14px;
   padding: 15px 20px;
   line-height: 0;
   font-weight: 500;
-  transition:         all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition:    all 0.2s ease;
-  -ms-transition:     all 0.2s ease;
-  -o-transition:      all 0.2s ease;
   cursor: pointer;
   cursor: hand;
 }
 a:hover.button {
-  background-color: #000;
-  color: #fff;
-  box-sizing: border-box;
-  border: solid 1px #FFF;
+  border-color: #000;
 }
 footer {
   text-align: center;
