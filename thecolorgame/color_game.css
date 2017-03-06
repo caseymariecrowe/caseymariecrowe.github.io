@@ -1,0 +1,223 @@
+*{
+	cursor: default;
+}
+body{
+	background-color: white;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+#play_color img {
+	width: 250px;
+	margin: 0 auto;
+	display: block;
+	padding-top: 45px;
+}
+#black_logo {
+	display:none;
+}
+#start_button{
+	text-align: center;
+	display: block;
+	border-radius: 50px;
+	margin: 0 auto;
+	width: 120px;
+	padding: 10px 0 13px 0px;
+	border: solid 2px;
+	margin-bottom: 50px;
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+	background-color: transparent;
+}
+#board_game {
+	width: 100%;
+	height: 100%;
+	cursor: hand;
+	display: none;
+	margin: 0;
+}
+#play_colors {
+	display: none;
+	height: 100%;
+}
+#play_color {
+	height: 100%;
+	width: 100%;
+}
+p#wrong-text {
+	color: white;
+	font-size: 60px;
+	font-weight: 300;
+	margin-top: 250px;
+	text-align: center;
+}
+p#byline {
+	max-width: 450px;
+	font-weight: 300;
+	padding: 0 20px;
+	margin: 25px auto;
+	font-size: 28px;
+	text-align: center;
+	display: block;
+	width: 100%;
+	line-height:normal;
+}
+#play_color a {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	margin-top: 20px;
+}
+#play_color a:hover {
+	cursor: pointer;
+	cursor: hand;
+	text-decoration: underline;
+}
+.your_color {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+#wrong {
+	height: 100%;
+	width: 100%;
+	background-color: red;
+	display: none;
+	position: absolute;
+}
+.box {
+	height: 10%;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+	float:left;
+	z-index: 0;
+}
+.box:hover {
+cursor: pointer !important;
+cursor: hand !important;
+}
+#shaded-background {
+	background-color: #000000;
+	height: 100%;
+	opacity: .8;
+	width: 100%;
+	top: 0;
+	position: absolute;
+	display: none;
+}
+#game-over-alert {
+	margin: 0;
+	text-align: center;
+	top: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+#lightbox {
+	width: 300px;
+	border-radius: 10px;
+	background-color: white;
+	padding: 50px;
+	margin: 100px auto 0;
+	padding-bottom: 80px;
+}
+#lightbox a{
+	color: #000000;
+}
+#game-over-alert p.alert-header {
+	font-weight: 100;
+	font-size: 36px;
+	margin-top: 0;
+}
+p.score-header {
+	font-size: 20px;
+}
+#score{
+	margin-bottom: 50px;
+	font-size: 60px;
+}
+#game-over-alert a {
+	border: solid 2px;
+	padding: 10px 40px 12px 40px;
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+.light p{
+  color: #000000;
+}
+.dark p{
+  color: #FFFFFF;
+}
+.light a{
+  color: #000000;
+}
+.dark a{
+  color: #FFFFFF;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (   min-moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+	#play_color img {
+		width: 500px;
+		padding-top: 100px;
+	}
+	p#byline {
+		max-width: 80%;
+		font-size: 48px;
+		margin-top: 50px;
+	}
+	#play_color a {
+		font-size: 40px;
+		margin-top: 100px;
+		font-weight: 300;
+	}
+	p#start_button{
+		margin: 100px auto;
+		padding: 20px 60 25px 60px;
+		border: solid 3px;
+		font-size: 40px;
+		margin-bottom: 50px;
+	}
+	#lightbox {
+		width: 60%;
+		border-radius: 20px;
+		background-color: white;
+		padding: 50px 50px 120px 50px;
+		margin: 100px auto 0;
+	}
+	#lightbox a{
+		color: #000000;
+	}
+	#game-over-alert p.alert-header {
+		font-size: 70px;
+	}
+	p.score-header{
+		font-size: 40px;
+	}
+	#game-over-alert a {
+		border: solid 3px;
+		font-size: 40px;
+		padding: 20px 60px 25px 60px;
+		text-decoration: none;
+	}
+	#score{
+		margin-bottom: 100px;
+		font-size: 120px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	p#byline {
+		max-width: 300px;
+	}
+}
