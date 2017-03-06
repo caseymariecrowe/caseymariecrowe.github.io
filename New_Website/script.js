@@ -58,10 +58,10 @@ $(document).ready(function() {
       clearInterval(colorLoop);
       $el.css( 'background-color', $el.data('originalColor'));
     })
-    $(document).on('click', '.js-animate-color', function() {
+    $(document).on('click', '.js-animate-bg-color', function() {
       var $el = $(this)
       clearInterval(colorLoop);
-      $el.css( 'color', $el.data('originalColor'));
+      $el.css( 'background-color', $el.data('originalColor'));
     })
 
     function MenuOff() {
