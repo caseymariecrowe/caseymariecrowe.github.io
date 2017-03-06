@@ -34,11 +34,11 @@ body {
   height: 56px;
   background-color: #000;
   position: fixed;
-  transition:         all 0.1s ease;
-  -webkit-transition: all 0.1s ease;
-  -moz-transition:    all 0.1s ease;
-  -ms-transition:     all 0.1s ease;
-  -o-transition:      all 0.1s ease;
+  transition:         all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition:    all 0.2s ease;
+  -ms-transition:     all 0.2s ease;
+  -o-transition:      all 0.2s ease;
 }
 #logo img {
   width: 81px;
@@ -61,7 +61,6 @@ body {
   color: #000;
 }
 #description a:hover{
-  text-decoration: underline;
   color: #000;
 }
 #nav_icon_on {
@@ -134,6 +133,8 @@ a.button {
 a:hover.button {
   background-color: #000;
   color: #fff;
+  box-sizing: border-box;
+  border: solid 1px #FFF;
 }
 footer {
   text-align: center;

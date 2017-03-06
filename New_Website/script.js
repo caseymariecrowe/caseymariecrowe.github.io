@@ -6,7 +6,7 @@ function pixelColors(element, property) {
 }
 
 $(document).ready(function() {
-
+    $('body').fadeIn(700);
     var colorLoop;
     $(document).on('mouseenter', '.js-animate-color', function() {
       var $el = $(this)
@@ -32,9 +32,6 @@ $(document).ready(function() {
       clearInterval(colorLoop);
       $el.css( 'background-color', $el.data('originalColor'));
     })
-
-    $('body').fadeIn(700);
-
     function MenuOff() {
       $( '#mobile_nav' ).fadeOut('fast');
       $( 'body' ).css( 'overflow', 'visible' );
@@ -44,7 +41,6 @@ $(document).ready(function() {
       $( '.mobile_nav_item_4' ).fadeOut();
       $( '.mobile_nav_item_5' ).fadeOut();
     };
-
     function MenuOn() {
       $( '.mobile_nav_item_1' ).delay(100).fadeIn();
       $( '.mobile_nav_item_2' ).delay(120).fadeIn();
@@ -54,11 +50,9 @@ $(document).ready(function() {
       $( '#mobile_nav' ).fadeIn('fast');
       $( 'body' ).css( 'overflow', 'hidden' );
     };
-
     var homePage;
     homePage = $( '#home_page' ).html();
     $( '#content' ).html(homePage);
-
     $(document).on('click', '.mobile_nav_item_1, .nav_item_1, .more_digital_products', {}, function() {
       $(this).addClass('active_page');
       $( '.nav_item_2, .nav_item_3, .nav_item_4,nav_item_5' ).removeClass('active_page');
@@ -120,7 +114,6 @@ $(document).ready(function() {
       $( 'footer' ).fadeIn();
       MenuOff();
     })
-
     $(document).on('click', '#logo', {}, function() {
       $('html,body').animate({ scrollTop: 0 }, 'slow');
       $( '#content' ).hide();
@@ -130,7 +123,6 @@ $(document).ready(function() {
       $( 'footer' ).fadeIn();
       $( '.nav_item_1,.nav_item_2,.nav_item_3,.nav_item_4,.nav_item_5' ).removeClass('active_page');
     })
-
     $( '#nav_icon_on' ).click(
       function() {
         MenuOn();
@@ -139,7 +131,6 @@ $(document).ready(function() {
       function() {
         MenuOff();
     });
-
     var breakpoint = 768;
     window.onresize = function(event) {
         $( '#content' ).show();
