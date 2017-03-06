@@ -24,6 +24,7 @@ $(document).ready(function() {
 
     $('body').fadeIn(700);
 
+
     var homePage;
     homePage = $( '#home_page' ).html();
     $( '#content' ).html(homePage);
@@ -102,6 +103,7 @@ $(document).ready(function() {
 
 
     $(document).on('click', '#logo', {}, function() {
+      $('html,body').animate({ scrollTop: 0 }, 'slow');
       $( '#content' ).hide();
       $( 'footer' ).hide();
       $( '#content' ).html(homePage);
