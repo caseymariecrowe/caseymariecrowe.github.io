@@ -36,14 +36,14 @@ $(document).ready(function() {
       clearInterval(colorLoop);
       $el.css( 'color', $el.data('originalColor'));
     })
-    $(document).on('mouseenter touchstart', '.js-animate-bg-color', function() {
+    $(document).on('mouseover', '.js-animate-bg-color', function() {
       var $el = $(this)
       $el.data('originalColor', $el.css('background-color'))
       colorLoop = setInterval(function() {
         pixelColors($el, 'background-color')
       }, 100);
     })
-    $(document).on('mouseleave touchend', '.js-animate-bg-color', function() {
+    $(document).on('mouseout', '.js-animate-bg-color', function() {
       var $el = $(this)
       clearInterval(colorLoop);
       $el.css( 'background-color', $el.data('originalColor'));
