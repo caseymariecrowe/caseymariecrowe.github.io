@@ -52,14 +52,14 @@ body {
 
 }
 #content {
-  min-height: calc(100vh - 570px);
+  min-height: calc(100vh - 520px);
   padding: 120px 30px 20px;
 }
 #description p{
   color: #777;
   font-size: 22px;
   line-height: 30px;
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
 }
 #description p.small {
   font-size: 18px;
@@ -67,6 +67,7 @@ body {
 #description a{
   text-decoration: none;
   color: #000;
+  text-shadow: 0 0 0 #000;
 }
 #description a:hover{
   color: #000;
@@ -96,11 +97,9 @@ body {
 #regular_nav {
   display:none;
 }
-ul {
-  list-style: none;
-}
 #mobile_nav ul {
   padding: 30px 75px 25px 30px;
+  list-style: none;
 }
 #mobile_nav a{
   text-decoration: none;
@@ -122,14 +121,13 @@ p.work_description {
 }
 a.button {
   display: inline-block;
+  text-shadow: 0 0 0 #000;
   margin: 0 0 40px 0;
-  border: solid 1px;
-  border-color: #000;
-  border-radius: 50px;
+  border: solid 1px #000;
+  border-radius: 5px;
   font-size: 14px;
   padding: 15px 20px;
   line-height: 0;
-  font-weight: 500;
   cursor: pointer;
   cursor: hand;
 }
@@ -141,7 +139,6 @@ footer {
   color: #777;
   padding: 75px 0;
   background-color: #f9f9f9;
-  height: 380px;
 }
 p#footer_header {
   font-size: 22px;

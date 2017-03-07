@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kevin David Crowe - Artist &amp; Designer</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </head>
@@ -30,11 +30,11 @@
       </div>
       <div id="regular_nav">
         <ul>
-          <li class="nav_item_1"><a class="nav_item clickable" >Digital Products</a></li>
-          <li class="nav_item_2"><a class="nav_item clickable">Logos</a></li>
-          <li class="nav_item_3"><a class="nav_item clickable">Illustration</a></li>
-          <li class="nav_item_4"><a class="nav_item clickable">Print</a></li>
-          <li class="nav_item_5"><a class="nav_item clickable">About</a></li>
+          <li class="nav_item_1"><a class="js-animate-color nav_item clickable" >Digital Products</a></li>
+          <li class="nav_item_2"><a class="js-animate-color nav_item clickable">Logos</a></li>
+          <li class="nav_item_3"><a class="js-animate-color nav_item clickable">Illustration</a></li>
+          <li class="nav_item_4"><a class="js-animate-color nav_item clickable">Print</a></li>
+          <li class="nav_item_5"><a class="js-animate-color nav_item clickable">About</a></li>
         </ul>
       </div>
     </div>
@@ -61,15 +61,15 @@
           <div class="work_info">
             <p class="work_title">Don't Cry / Pillow Fight</p>
             <p class="work_description">Drawing, Vector, Adobe Illustrator</p>
-            <a class="button more_illustrations">More Illustrations</a>
+            <a class="button more_illustrations js-animate-border">More Illustrations</a>
           </div>
         </div>
         <div class="work">
-          <img class="work_image" src="images/work/logos/groupme_logo.png"/>
+          <img class="work_image" src="images/work/logos/groupme_logo.jpg"/>
           <div class="work_info">
             <p class="work_title">GroupMe</p>
             <p class="work_description">Logo & Brand Design</p>
-            <a class="button more_logos">More Logos</a>
+            <a class="button more_logos js-animate-border">More Logos</a>
           </div>
         </div>
         <div class="work">
@@ -78,7 +78,7 @@
           <div class="work_info">
             <p class="work_title">Vulture Realty - You There / Madison EP</p>
             <p class="work_description">Art Direction, Design, Production</p>
-            <a class="button more_print">More Print Design</a>
+            <a class="button more_print js-animate-border">More Print Design</a>
           </div>
         </div>
       </div>
@@ -106,37 +106,58 @@
     <script type="text/html" id="logos_page">
       <div id="logos_content">
         <div id="description">
-          <p>I've designed logos for many companies over the years.</p>
+          <p>I specialize in logo design and identity systems, and have created the face of brands that have reached millions.</p>
         </div>
         <div class="work">
-          <img class="work_image" src="fundera_1.jpg"/>
-          <div class="work_info">
-            <p class="work_title">Fundera</p>
-            <p class="work_description">Product, Art Direction, UX, UI</p>
-          </div>
+          <img class="work_image" src="images/work/logos/fundera_logo.svg"/>
         </div>
         <div class="work">
-          <img class="work_image" src="spilt_milk.svg"/>
-          <img class="work_image" src="pillow_fight.svg"/>
-          <div class="work_info">
-            <p class="work_title">Don't Cry / Pillow Fight</p>
-            <p class="work_description">Drawing, Vector, Adobe Illustrator</p>
-          </div>
+          <img class="work_image" src="images/work/logos/groupme_logo.svg"/>
         </div>
         <div class="work">
-          <img class="work_image" src="groupme_logo.png"/>
-          <div class="work_info">
-            <p class="work_title">GroupMe</p>
-            <p class="work_description">Logo & Brand Design</p>
-          </div>
+          <img class="work_image" src="images/work/logos/indelible_logo.svg"/>
         </div>
         <div class="work">
-          <img class="work_image" src="vulture_realty_1.jpg"/>
-          <img class="work_image" src="vulture_realty_2.jpg"/>
-          <div class="work_info">
-            <p class="work_title">Vulture Realty - You There / Madison EP</p>
-            <p class="work_description">Art Direction, Design, Production</p>
-          </div>
+          <img class="work_image" src="images/work/logos/fancyhands_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/fixader_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/bitsy_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/normative_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/recio_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/pummelvision_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/sponsorfied_logo.png"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/odwick_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/startup_nyc_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/surfbang_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/tadcast_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/vogue_adventure_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/whitespace_logo.svg"/>
+        </div>
+        <div class="work">
+          <img class="work_image" src="images/work/logos/collegehumor_originals_logo.svg"/>
         </div>
       </div>
     </script>
@@ -145,7 +166,7 @@
     <script type="text/html" id="illustrations_page">
       <div id="illustrations_content">
         <div id="description">
-          <p>Freelance illustrator. Available for commission.</p>
+          <p>Hand drawn illustrations. Vectorized in Adobe Illustrator. I'm available for commission.</p>
         </div>
         <div class="work">
           <img class="work_image" src="images/work/illustrations/spilt_milk.svg"/>
@@ -157,6 +178,7 @@
           <img class="work_image" src="images/work/illustrations/grilled_happiness.svg"/>
           <img class="work_image" src="images/work/illustrations/wave_senses.svg"/>
           <img class="work_image" src="images/work/illustrations/paperplane.svg"/>
+          <img class="work_image" src="images/work/illustrations/flaming_desire.svg"/>
         </div>
       </div>
     </script>
