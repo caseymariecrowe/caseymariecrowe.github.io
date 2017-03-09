@@ -1,6 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  transition:         all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition:    all 0.2s ease;
+  -ms-transition:     all 0.2s ease;
+  -o-transition:      all 0.2s ease;
 }
 .clickable {
   cursor: pointer;
@@ -124,14 +129,14 @@ a.button {
   text-shadow: 0 0 0 #000;
   margin: 0 0 40px 0;
   border: solid 1px #000;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 14px;
   padding: 15px 20px;
   line-height: 0;
   cursor: pointer;
   cursor: hand;
 }
-a:hover.button {
+a.button:hover {
   border-color: #000;
 }
 footer {
