@@ -6,8 +6,8 @@ function pixelColors(element, property) {
 }
 
 $('body').ready(function() {
-  $('.work_image').hide();
-  $('.work_image').each(function(i) {
+  $('img').hide();
+  $('img').each(function(i) {
      if (this.complete) {
          $(this).fadeIn();
      } else {
