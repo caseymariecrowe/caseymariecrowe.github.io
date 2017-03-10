@@ -7,7 +7,20 @@ function pixelColors(element, property) {
 
 $(document).ready(function() {
     $('body').fadeIn(700);
-    $('.work_image').fadeIn(700);
+
+    $(".work_image").each(function() {
+        var src = $(this).data("src");
+        if (src) {
+            var img = new Image();
+            img.style.display = "none";
+            img.onload = function() {
+                $(this).fadeIn(700);
+            };
+            $(this).append(img);
+            img.src = src;
+        }
+    });
+
     var colorLoop;
     $(document).on('mouseenter', '.js-animate-border', function() {
       var $el = $(this)
