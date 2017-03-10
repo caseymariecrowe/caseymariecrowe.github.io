@@ -5,19 +5,6 @@ function pixelColors(element, property) {
     $(element).css(transform);
 }
 
-$('body').ready(function() {
-  $('img').hide();
-  $('img').each(function(i) {
-     if (this.complete) {
-         $(this).fadeIn();
-     } else {
-         $(this).load(function() {
-             $(this).fadeIn(2000);
-         });
-     }
-  });
-});
-
 $(document).ready(function() {
     $('body').fadeIn(700);
 
