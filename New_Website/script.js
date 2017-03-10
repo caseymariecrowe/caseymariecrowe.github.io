@@ -7,7 +7,7 @@ function pixelColors(element, property) {
 
 $(document).ready(function() {
     $('body').fadeIn(700);
-    $('work_image').fadeIn(700);
+    $('.work_image').fadeIn(700);
     var colorLoop;
     $(document).on('mouseenter', '.js-animate-border', function() {
       var $el = $(this)
