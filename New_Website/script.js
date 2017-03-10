@@ -61,21 +61,21 @@ $(document).ready(function() {
     })
     function MenuOff() {
       $( '#mobile_nav' ).fadeOut('fast');
+      $( 'body' ).css( 'overflow', 'visible' );
       $( '.mobile_nav_item_1' ).fadeOut();
       $( '.mobile_nav_item_2' ).fadeOut();
       $( '.mobile_nav_item_3' ).fadeOut();
       $( '.mobile_nav_item_4' ).fadeOut();
       $( '.mobile_nav_item_5' ).fadeOut();
-      $( '#content' ).fadeIn('fast');
     };
     function MenuOn() {
-      $( '#content' ).fadeOut('fast');
       $( '.mobile_nav_item_1' ).delay(100).fadeIn();
       $( '.mobile_nav_item_2' ).delay(120).fadeIn();
       $( '.mobile_nav_item_3' ).delay(140).fadeIn();
       $( '.mobile_nav_item_4' ).delay(160).fadeIn();
       $( '.mobile_nav_item_5' ).delay(180).fadeIn();
       $( '#mobile_nav' ).fadeIn('fast');
+      $( 'body' ).css( 'overflow', 'hidden' );
     };
     var homePage;
     homePage = $( '#home_page' ).html();
