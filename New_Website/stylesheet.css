@@ -56,13 +56,25 @@ body {
   padding: 120px 30px 20px;
 }
 #description p{
-  color: #777;
+  color: #000;
   font-size: 24px;
   line-height: 36px;
   margin: 0 0 20px 0;
 }
+#description p.home_description {
+  color: #777;
+}
 #description p.small {
   font-size: 18px;
+  line-height: 26px;
+  color: #777;
+}
+.work_description {
+  line-height: 26px;
+}
+.work_tags {
+  font-size: 14px;
+  margin: 0;
 }
 #description a{
   text-decoration: none;
@@ -109,6 +121,12 @@ body {
 }
 .work_image {
   width: 100%;
+}
+.work {
+  margin: 75px 0 0 0;
+}
+.image_sets {
+  margin: 35px 0 50px 0;
 }
 p.work_title {
   font-size: 18px;
