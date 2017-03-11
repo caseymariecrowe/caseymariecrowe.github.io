@@ -57,8 +57,8 @@ body {
 }
 #description p{
   color: #777;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 24px;
+  line-height: 36px;
   margin: 0 0 20px 0;
 }
 #description p.small {
@@ -109,7 +109,6 @@ body {
 }
 .work_image {
   width: 100%;
-  display: none;
 }
 p.work_title {
   font-size: 18px;
@@ -186,17 +185,17 @@ p#copywrite {
 /* Tablet Styles */
 @media all and (min-width: 768px){
   #logo {
-    width: 149px;
-    height: 103px;
-    margin: 25px 0 15px 30px;
+    width: 89px;
+    height: 61px;
+    margin: 25px 0 15px 25px;
     top:0;
     position: fixed;
     z-index:2;
   }
   #logo img {
-    width: 151px;
-    height: 110px;
-    margin: -3px 0 0 -1px;
+    width: 90px;
+    height: 69px;
+    margin: -4px 0 0 -1px;
   }
   #header {
     background-color: transparent;
@@ -209,12 +208,12 @@ p#copywrite {
     display: block;
   }
   #regular_nav {
-    margin: 50px 0 50px 193px;
+    margin: 35px 0 0px 140px;
     display: block;
   }
   #regular_nav a {
     display: inline;
-    padding: 0 0 0 25px;
+    padding: 0 20px 0 0;
   }
   #regular_nav li {
     display: inline;
@@ -226,13 +225,13 @@ p#copywrite {
     text-decoration:underline;
   }
   #content {
-    max-width: 768px;
-    margin: 0px 20px 20px 200px;
-    padding: 0px 20px 20px;
+    max-width: 725px;
+    margin: 0px 25px 20px 140px;
+    padding: 0px 0px 20px;
   }
   footer {
     text-align: left;
-    padding: 50px 0 50px 216px;
+    padding: 50px 0 50px 140px;
 
   }
   img#tiny_logo {
@@ -243,7 +242,7 @@ p#copywrite {
 @media all and (min-width: 1418px){
   #regular_nav {
     position: fixed;
-    margin: 50px 30px 0 0;
+    margin: 39px 10px 0 0;
     right: 0;
     padding: 0;
   }
@@ -251,7 +250,6 @@ p#copywrite {
     height: 0;
   }
   #content {
-    max-width: 720px;
-    padding: 45px 20px 20px;
+    padding: 35px 0px 20px;
   }
 }
