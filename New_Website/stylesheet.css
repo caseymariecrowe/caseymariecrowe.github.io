@@ -40,7 +40,6 @@ body {
   width: 87px;
   height: 61px;
   background-color: #000;
-  position: fixed;
   transition:         all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   -moz-transition:    all 0.2s ease;
@@ -49,7 +48,6 @@ body {
   -webkit-box-shadow:inset 0px 0px 0px 1px #fff;
   -moz-box-shadow:inset 0px 0px 0px 1px #fff;
   box-shadow:inset 0px 0px 0px 1px #fff;
-  position: fixed;
 }
 #logo img {
   transition:         all 0.2s ease;
