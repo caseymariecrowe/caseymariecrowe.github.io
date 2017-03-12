@@ -35,10 +35,10 @@ body {
   height: 90px;
 }
 #logo {
-  width: 80px;
   display: inline-block;
   margin: 15px;
-  height: 56px;
+  width: 87px;
+  height: 61px;
   background-color: #000;
   position: fixed;
   transition:         all 0.2s ease;
@@ -46,6 +46,9 @@ body {
   -moz-transition:    all 0.2s ease;
   -ms-transition:     all 0.2s ease;
   -o-transition:      all 0.2s ease;
+  -webkit-box-shadow:inset 0px 0px 0px 1px #fff;
+  -moz-box-shadow:inset 0px 0px 0px 1px #fff;
+  box-shadow:inset 0px 0px 0px 1px #fff;
 }
 #logo img {
   transition:         all 0.2s ease;
@@ -53,10 +56,8 @@ body {
   -moz-transition:    all 0.2s ease;
   -ms-transition:     all 0.2s ease;
   -o-transition:      all 0.2s ease;
-  width: 81px;
-  height: 58px;
-  margin-top: -1px;
-
+  width: 88px;
+  height: 62px;
 }
 #content {
   min-height: calc(100vh - 520px);
@@ -106,17 +107,33 @@ body {
 }
 #nav_icon_on {
   float: right;
-  width: 55px;
-  height: 55px;
+  width: 54px;
+  height: 54px;
   margin: 15px 20px 0 0;
   background-color: #000;
+  -webkit-box-shadow:inset 0px 0px 0px 4px #fff;
+  -moz-box-shadow:inset 0px 0px 0px 4px #fff;
+  box-shadow:inset 0px 0px 0px 4px #fff;
+}
+#nav_icon_on img{
+  width: 55px;
+  height: 55px;
+  border: solid 1px #fff;
 }
 #nav_icon_off {
   float: right;
-  width: 55px;
-  height: 55px;
+  width: 54px;
+  height: 54px;
   margin: 15px 20px 0 0;
   background-color: #000;
+  -webkit-box-shadow:inset 0px 0px 0px 4px #fff;
+  -moz-box-shadow:inset 0px 0px 0px 4px #fff;
+  box-shadow:inset 0px 0px 0px 4px #fff;
+}
+#nav_icon_off img{
+  width: 55px;
+  height: 55px;
+  border: solid 1px #fff;
 }
 #mobile_nav {
   display: none;
@@ -225,8 +242,6 @@ p#copywrite {
 /* Tablet Styles */
 @media all and (min-width: 768px){
   #logo {
-    width: 89px;
-    height: 61px;
     margin: 25px 0 15px 25px;
     top:0;
     position: fixed;
@@ -237,11 +252,6 @@ p#copywrite {
   }
   .work {
     margin: 75px 0 100px 0;
-  }
-  #logo img {
-    width: 90px;
-    height: 69px;
-    margin: -4px 0 0 -1px;
   }
   #header {
     background-color: transparent;
