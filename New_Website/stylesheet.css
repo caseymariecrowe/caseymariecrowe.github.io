@@ -37,17 +37,14 @@ body {
 #logo {
   display: inline-block;
   margin: 15px;
-  width: 87px;
-  height: 61px;
+  width: 86px;
+  height: 60px;
   background-color: #000;
   transition:         all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   -moz-transition:    all 0.2s ease;
   -ms-transition:     all 0.2s ease;
   -o-transition:      all 0.2s ease;
-  -webkit-box-shadow:inset 0px 0px 0px 1px #fff;
-  -moz-box-shadow:inset 0px 0px 0px 1px #fff;
-  box-shadow:inset 0px 0px 0px 1px #fff;
 }
 #logo img {
   transition:         all 0.2s ease;
@@ -105,13 +102,10 @@ body {
 }
 #nav_icon_on {
   float: right;
-  width: 54px;
-  height: 54px;
+  width: 50px;
+  height: 50px;
   margin: 15px 20px 0 0;
   background-color: #000;
-  -webkit-box-shadow:inset 0px 0px 0px 4px #fff;
-  -moz-box-shadow:inset 0px 0px 0px 4px #fff;
-  box-shadow:inset 0px 0px 0px 4px #fff;
 }
 #nav_icon_on img{
   width: 55px;
@@ -119,13 +113,10 @@ body {
 }
 #nav_icon_off {
   float: right;
-  width: 54px;
-  height: 54px;
+  width: 50px;
+  height: 50px;
   margin: 15px 20px 0 0;
   background-color: #000;
-  -webkit-box-shadow:inset 0px 0px 0px 4px #fff;
-  -moz-box-shadow:inset 0px 0px 0px 4px #fff;
-  box-shadow:inset 0px 0px 0px 4px #fff;
 }
 #nav_icon_off img{
   width: 55px;
