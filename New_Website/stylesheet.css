@@ -49,6 +49,7 @@ body {
   -webkit-box-shadow:inset 0px 0px 0px 1px #fff;
   -moz-box-shadow:inset 0px 0px 0px 1px #fff;
   box-shadow:inset 0px 0px 0px 1px #fff;
+  position: fixed;
 }
 #logo img {
   transition:         all 0.2s ease;
@@ -58,9 +59,10 @@ body {
   -o-transition:      all 0.2s ease;
   width: 88px;
   height: 62px;
+  position: fixed;
 }
 #content {
-
+  min-height: calc(100vh - 520px);
   padding: 120px 30px 20px;
 }
 #description p{
