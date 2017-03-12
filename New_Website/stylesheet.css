@@ -110,7 +110,7 @@ body {
   width: 47px;
   height: 50px;
   position: relative;
-  margin: 15px 20px 0 0;
+  margin: 20px 20px 0 0;
   background-color: #000;
 }
 #nav_icon_on img{
@@ -121,14 +121,17 @@ body {
 }
 #nav_icon_off {
   float: right;
-  width: 50px;
+  width: 47px;
   height: 50px;
-  margin: 15px 20px 0 0;
+  position: relative;
+  margin: 20px 20px 0 0;
   background-color: #000;
 }
 #nav_icon_off img{
   width: 55px;
   height: 55px;
+  margin-left: -7px;
+  margin-top: -4px;
 }
 #mobile_nav {
   display: none;
