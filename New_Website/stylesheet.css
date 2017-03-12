@@ -114,12 +114,12 @@ body {
   -webkit-box-shadow:inset 0px 0px 0px 4px #fff;
   -moz-box-shadow:inset 0px 0px 0px 4px #fff;
   box-shadow:inset 0px 0px 0px 4px #fff;
-  border: solid 2px #fff;
+  border: solid inset 1px #fff;
 }
 #nav_icon_on img{
   width: 55px;
   height: 55px;
-  border: solid 2px #fff;
+  border: solid 3px #fff;
 }
 #nav_icon_off {
   float: right;
@@ -130,12 +130,12 @@ body {
   -webkit-box-shadow:inset 0px 0px 0px 4px #fff;
   -moz-box-shadow:inset 0px 0px 0px 4px #fff;
   box-shadow:inset 0px 0px 0px 4px #fff;
-  border: solid 2px #fff;
+  border: solid inset 1px #fff;
 }
 #nav_icon_off img{
   width: 55px;
   height: 55px;
-  border: solid 2px #fff;
+  border: solid 3px #fff;
 }
 #mobile_nav {
   display: none;
