@@ -72,6 +72,9 @@ body {
 .work_description {
   line-height: 26px;
 }
+.logo_header {
+  width: 110px;
+}
 .work_tags {
   font-size: 14px;
   margin: 0;
@@ -123,10 +126,10 @@ body {
   width: 100%;
 }
 .work {
-  margin: 75px 0 0 0;
+  margin: 40px 0 100px 0;
 }
 .image_sets {
-  margin: 35px 0 50px 0;
+  margin: 50px 0 0px 0;
 }
 p.work_title {
   font-size: 18px;
@@ -209,6 +212,12 @@ p#copywrite {
     top:0;
     position: fixed;
     z-index:2;
+  }
+  .image_sets {
+    margin: 50px 0 50px 0;
+  }
+  .work {
+    margin: 75px 0 0 0;
   }
   #logo img {
     width: 90px;
