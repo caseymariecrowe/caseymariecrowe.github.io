@@ -6,6 +6,14 @@
   cursor: pointer;
   cursor: hand;
 }
+a {
+  color: #000;
+  text-decoration: underline;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
@@ -17,7 +25,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-font-smoothing: subpixel-antialiased;
 }
-
 #header {
   border-bottom: solid 1px #f0f0f0;
   position: fixed;
@@ -69,6 +76,9 @@ body {
   line-height: 26px;
   color: #777;
 }
+#description {
+  margin-bottom: 50px;
+}
 .work_description {
   line-height: 26px;
 }
@@ -86,6 +96,13 @@ body {
 }
 #description a:hover{
   color: #000;
+}
+#description p.small a{
+  text-decoration: underline;
+  text-shadow: none;
+}
+#description p.small a:hover{
+  text-decoration: none;
 }
 #nav_icon_on {
   float: right;
@@ -111,6 +128,7 @@ body {
 }
 #regular_nav {
   display:none;
+  text-decoration: none;
 }
 #mobile_nav ul {
   padding: 30px 75px 25px 30px;
@@ -126,7 +144,7 @@ body {
   width: 100%;
 }
 .work {
-  margin: 40px 0 100px 0;
+  margin: 40px 0 75px 0;
 }
 .image_sets {
   margin: 50px 0 0px 0;
@@ -143,14 +161,12 @@ p.work_description {
 a.button {
   display: inline-block;
   text-shadow: 0 0 0 #000;
-  margin: 0 0 40px 0;
   border: solid 1px #000;
   border-radius: 20px;
   font-size: 14px;
   padding: 15px 20px;
   line-height: 0;
-  cursor: pointer;
-  cursor: hand;
+  text-decoration: none;
 }
 a.button:hover {
   border-color: #000;
@@ -220,7 +236,7 @@ p#copywrite {
     margin: 50px 0 50px 0;
   }
   .work {
-    margin: 75px 0 0 0;
+    margin: 75px 0 100px 0;
   }
   #logo img {
     width: 90px;
@@ -275,6 +291,12 @@ p#copywrite {
     margin: 39px 10px 0 0;
     right: 0;
     padding: 0;
+  }
+  #regular_nav a{
+    text-decoration: none;
+  }
+  #regular_nav a:hover{
+    text-decoration: underline;
   }
   #header {
     height: 0;

@@ -4,6 +4,7 @@ function pixelColors(element, property) {
     transform[property] = color;
     $(element).css(transform);
 }
+
 $(document).ready(function() {
     $('body').fadeIn(700);
 
