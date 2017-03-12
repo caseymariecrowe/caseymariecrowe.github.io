@@ -203,6 +203,9 @@ p#copywrite {
   color: #777;
   font-size: 12px;
 }
+.portrait {
+  margin-bottom: 30px;
+}
 /* Tablet Styles */
 @media all and (min-width: 768px){
   #logo {
