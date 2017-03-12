@@ -111,15 +111,13 @@ body {
   height: 54px;
   margin: 15px 20px 0 0;
   background-color: #000;
-  -webkit-box-shadow:inset 0px 0px 0px 4px #fff;
-  -moz-box-shadow:inset 0px 0px 0px 4px #fff;
-  box-shadow:inset 0px 0px 0px 4px #fff;
-  border: solid inset 1px #fff;
+  -webkit-box-shadow:inset 0px 0px 0px 1px #fff;
+  -moz-box-shadow:inset 0px 0px 0px 1px #fff;
+  box-shadow:inset 0px 0px 0px 1px #fff;
 }
 #nav_icon_on img{
   width: 55px;
   height: 55px;
-  border: solid 3px #fff;
 }
 #nav_icon_off {
   float: right;
@@ -127,15 +125,13 @@ body {
   height: 54px;
   margin: 15px 20px 0 0;
   background-color: #000;
-  -webkit-box-shadow:inset 0px 0px 0px 4px #fff;
-  -moz-box-shadow:inset 0px 0px 0px 4px #fff;
-  box-shadow:inset 0px 0px 0px 4px #fff;
-  border: solid inset 1px #fff;
+  -webkit-box-shadow:inset 0px 0px 0px 1px #fff;
+  -moz-box-shadow:inset 0px 0px 0px 1px #fff;
+  box-shadow:inset 0px 0px 0px 1px #fff;
 }
 #nav_icon_off img{
   width: 55px;
   height: 55px;
-  border: solid 3px #fff;
 }
 #mobile_nav {
   display: none;
