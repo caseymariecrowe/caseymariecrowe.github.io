@@ -25,6 +25,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-font-smoothing: subpixel-antialiased;
 }
+#oldies {
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+img.oldie {
+  display: inline;
+  width: 49%;
+  padding-bottom: 1%;
+  margin: 0;
+}
 #header {
   border-bottom: solid 1px #f0f0f0;
   position: fixed;
@@ -61,7 +71,7 @@ body {
   margin-top: -2px;
 }
 #content {
-  padding: 120px 30px 20px;
+  padding: 120px 30px 75px 30px;
 }
 #description p{
   color: #000;
@@ -73,12 +83,15 @@ body {
   color: #777;
 }
 #description p.small {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 19px;
+  line-height: 30px;
   color: #777;
 }
-#description {
-  margin-bottom: 50px;
+p.small {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #777;
 }
 .work_description {
   line-height: 26px;
@@ -159,7 +172,10 @@ body {
   width: 100%;
 }
 .work {
-  margin: 40px 0 75px 0;
+  margin: 75px 0 0px 0;
+}
+#logos_content .work {
+  margin-bottom: 0;
 }
 .image_sets {
   margin: 50px 0 0px 0;
@@ -170,7 +186,8 @@ p.work_title {
 }
 p.work_description {
   margin: 0 0 15px 0;
-  font-size: 16px;
+  font-size: 17px;
+  line-height: 30px;
   color: #777;
 }
 a.button {
@@ -237,6 +254,13 @@ p#copywrite {
 .portrait {
   margin-bottom: 30px;
 }
+.people {
+  margin-bottom: 5px;
+}
+#column1 {
+  float: left;
+  margin-right: 40px;
+}
 /* Tablet Styles */
 @media all and (min-width: 768px){
   #logo {
@@ -245,14 +269,11 @@ p#copywrite {
     position: fixed;
     z-index:2;
   }
-  #interesting_things {
-    max-width: 500px;
-  }
   .image_sets {
     margin: 50px 0 50px 0;
   }
   .work {
-    margin: 75px 0 100px 0;
+    margin: 75px 0 0px 0;
   }
   #header {
     background-color: transparent;
@@ -284,7 +305,7 @@ p#copywrite {
   }
   #content {
     max-width: 725px;
-    margin: 0px 25px 20px 140px;
+    margin: 0px 25px 75px 140px;
     padding: 0px 0px 20px;
   }
   footer {
