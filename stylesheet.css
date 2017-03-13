@@ -203,6 +203,9 @@ p.button {
 a.button:hover {
   border-color: #000;
 }
+img.illustration {
+  margin-bottom: 15px;
+}
 footer {
   text-align: center;
   color: #777;
