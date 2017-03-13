@@ -190,13 +190,13 @@ p.work_description {
   line-height: 30px;
   color: #777;
 }
-a.button {
-  display: inline;
+p.button {
+  display: inline-block;
   text-shadow: 0 0 0 #000;
   border: solid 1px #000;
   border-radius: 20px;
   font-size: 14px;
-  padding: 8px 15px;
+  padding: 17px 15px;
   line-height: 0;
   text-decoration: none;
 }
