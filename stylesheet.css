@@ -269,6 +269,9 @@ p#copywrite {
 }
 /* Tablet Styles */
 @media all and (min-width: 768px){
+  img#tiny_logo{
+    margin: 20px 0 5px;
+  }
   #logo {
     margin: 25px 0 15px 25px;
     top:0;
