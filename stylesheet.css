@@ -321,6 +321,11 @@ p#copywrite {
     text-align: left;
     padding: 50px 0 50px 140px;
   }
+  @media screen and ( max-height: 490px ){
+      footer {
+        background-color: #fff;
+      }
+  }
 }
 /* Desktop Styles */
 @media all and (min-width: 1418px){
@@ -342,9 +347,9 @@ p#copywrite {
   #content {
     padding: 35px 0px 20px;
   }
-}
-@media screen and ( max-height: 490px ){
-    footer {
-      background-color: #fff;
-    }
+  @media screen and ( max-height: 490px ){
+      footer {
+        background-color: #fff;
+      }
+  }
 }
