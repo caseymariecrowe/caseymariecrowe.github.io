@@ -343,3 +343,8 @@ p#copywrite {
     padding: 35px 0px 20px;
   }
 }
+@media screen and ( max-height: 490px ){
+    footer {
+      background-color: #fff;
+    }
+}
