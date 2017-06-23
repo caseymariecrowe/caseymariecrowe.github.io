@@ -84,6 +84,7 @@ img.oldie {
 }
 #description p.home_description {
   color: #777;
+  margin-bottom: 40px;
 }
 #description p.small {
   font-size: 19px;
@@ -101,6 +102,9 @@ p.small {
 }
 .logo_header {
   width: 110px;
+}
+.experiences_small {
+  width: 150px;
 }
 .work_tags {
   font-size: 14px;
@@ -175,7 +179,7 @@ p.small {
   width: 100%;
 }
 .work {
-  margin: 75px 0 0px 0;
+  margin: 0px 0 75px 0;
 }
 #logos_content .work {
   margin-bottom: 0;
@@ -282,7 +286,7 @@ p#copywrite {
     margin: 50px 0 50px 0;
   }
   .work {
-    margin: 75px 0 0px 0;
+    margin: 20px 0 75px 0;
   }
   #header {
     background-color: transparent;
@@ -346,6 +350,9 @@ p#copywrite {
   }
   #content {
     padding: 35px 0px 20px;
+  }
+  .work {
+    margin: 0px 0 75px 0;
   }
   @media screen and ( max-height: 490px ){
       footer {
