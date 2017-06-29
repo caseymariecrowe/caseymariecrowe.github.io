@@ -86,6 +86,7 @@ img.oldie {
   color: #777;
   margin-bottom: 40px;
 }
+
 #description p.small {
   font-size: 19px;
   line-height: 30px;
@@ -181,11 +182,17 @@ p.small {
 .work {
   margin: 0px 0 75px 0;
 }
+.brand_info {
+  margin-bottom: 50px;
+}
 #logos_content .work {
   margin-bottom: 0;
 }
 .image_sets {
   margin: 50px 0 0px 0;
+}
+.brand_image {
+  margin: 5px 0;
 }
 p.work_title {
   font-size: 18px;
@@ -285,8 +292,14 @@ p#copywrite {
   .image_sets {
     margin: 50px 0 50px 0;
   }
+  .brand_info {
+    margin-bottom: 50px;
+  }
   .work {
     margin: 20px 0 75px 0;
+  }
+  .brand_image {
+    margin: 5px 0;
   }
   #header {
     background-color: transparent;
@@ -353,6 +366,12 @@ p#copywrite {
   }
   .work {
     margin: 0px 0 75px 0;
+  }
+  .brand_info {
+    margin-bottom: 50px;
+  }
+  .brand_image {
+    margin: 5px 0;
   }
   @media screen and ( max-height: 490px ){
       footer {
