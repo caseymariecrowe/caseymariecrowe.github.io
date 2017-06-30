@@ -197,6 +197,10 @@ p.small {
 .wide_logo {
   width: 275px;
 }
+#pv_video {
+  margin-top: 50px;
+  padding: 0 50px;
+}
 p.work_title {
   font-size: 18px;
   margin: 10px 0 0 0;
