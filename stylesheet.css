@@ -29,7 +29,7 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 .appstore_button {
-  width: 200px;
+  width: 120px;
 }
 #oldies {
   width: 100%;
@@ -359,11 +359,6 @@ p#copywrite {
   footer {
     text-align: left;
     padding: 50px 0 50px 140px;
-  }
-  @media screen and ( max-height: 490px ){
-      footer {
-        background-color: #fff;
-      }
   }
 }
 /* Desktop Styles */
