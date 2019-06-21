@@ -88,16 +88,33 @@ img.oldie {
 #description p.home_description {
   color: #000;
   margin-bottom: 0px;
+  font-weight: 600;
 }
 #description p.home_biline {
   font-size: 20px;
   color: #777;
+  line-height: 20px;
 }
 
 #description p.small {
   font-size: 19px;
   line-height: 30px;
   color: #777;
+}
+#description p.subheader {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+#description p.work_tags {
+  display: inline;
+  margin-right: 5px;
+  background-color: #eee;
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 42px;
 }
 p.small {
   font-size: 18px;
@@ -122,9 +139,26 @@ img.just_logo_l {
   float: left;
   width: 50%;
 }
-.work_tags {
+p.work_tags {
   font-size: 14px;
   margin: 0;
+  display: inline;
+  margin-right: 5px;
+  background-color: #eee;
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: #666;
+}
+p.small_subheader {
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+p.subheader {
+  font-weight: 600;
+  margin-bottom: 50px;
+  font-size: 16px;
 }
 #description a{
   text-decoration: none;
