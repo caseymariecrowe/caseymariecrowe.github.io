@@ -253,7 +253,7 @@ footer {
 }
 p#footer_header {
   font-size: 22px;
-  margin: 0 0 15px 0;
+  margin: 40px 0 15px 0;
   color: #000;
 }
 p#footer_description {
@@ -302,6 +302,12 @@ p#copywrite {
 }
 #digital_products_content {
   margin-top: 10px;
+}
+#pdf_icon {
+  width: 22px;
+  position: relative;
+  top: 15px;
+  right: 8px;
 }
 /* Tablet Styles */
 @media all and (min-width: 768px){
