@@ -246,7 +246,6 @@ footer {
   text-align: center;
   color: #777;
   padding: 75px 0;
-  background-color: #f9f9f9;
   clear: left;
 }
 #just_logos {
@@ -285,11 +284,6 @@ img#instagram, img#twitter {
 img:hover#instagram,img:hover#twitter {
   opacity: .8;
 }
-img#tiny_logo{
-  width: 70px;
-  display: block;
-  margin: 20px auto 5px;
-}
 p#copywrite {
   color: #777;
   font-size: 12px;
@@ -301,12 +295,14 @@ p#copywrite {
   margin-bottom: 5px;
 }
 #about_content {
-  
+  margin-bottom: 175px;
 }
 #illustrations_content, #print_content{
   margin-top: 10px;
 }
-
+#digital_products_content {
+  margin-top: 10px;
+}
 /* Tablet Styles */
 @media all and (min-width: 768px){
   img#tiny_logo{
@@ -364,8 +360,8 @@ p#copywrite {
     margin: 20px 0 0 150px;
   }
   footer {
-    text-align: left;
-    padding: 50px 0 50px 30px;
+    text-align: right;
+    padding: 50px 30px 50px 30px;
   }
 }
 
@@ -394,11 +390,6 @@ p#copywrite {
   }
   .brand_image {
     margin: 5px 0;
-  }
-  @media screen and ( max-height: 490px ){
-      footer {
-        background-color: #fff;
-      }
   }
 }
 
