@@ -251,13 +251,13 @@ p.subheader {
   padding: 0 50px;
 }
 p.work_title {
-  font-size: 18px;
+  font-size: 19px;
   margin: 10px 0 0 0;
 }
 p.work_description {
   margin: 0 0 15px 0;
-  font-size: 17px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 26px;
   color: #777;
 }
 p.button {
