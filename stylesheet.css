@@ -148,6 +148,7 @@ p.work_tags {
   padding: 5px 15px;
   border-radius: 20px;
   color: #666;
+  line-height: 40px;
 }
 p.small_subheader {
   font-size: 12px;
