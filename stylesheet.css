@@ -109,7 +109,7 @@ img.oldie {
   display: inline;
   margin-right: 5px;
   background-color: #eee;
-  padding: 5px 15px;
+  padding: 5px 15px 7px;
   border-radius: 20px;
   color: #666;
   font-size: 18px;
@@ -145,7 +145,7 @@ p.work_tags {
   display: inline;
   margin-right: 5px;
   background-color: #eee;
-  padding: 5px 15px;
+  padding: 5px 15px 6px;
   border-radius: 20px;
   color: #666;
   line-height: 40px;
