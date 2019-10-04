@@ -149,6 +149,7 @@ p.work_tags {
   border-radius: 20px;
   color: #666;
   line-height: 40px;
+  white-space: nowrap;
 }
 p.small_subheader {
   font-size: 12px;
@@ -419,7 +420,7 @@ p#copywrite {
   #content {
     margin: 20px auto;
   }
-  
+
   #header {
     height: 0;
   }
@@ -433,4 +434,3 @@ p#copywrite {
     margin: 5px 0;
   }
 }
-
