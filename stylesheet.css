@@ -307,6 +307,9 @@ p#footer_number {
   margin: 0 0 10px 0;
   color: #000;
 }
+ul.footer_links {
+  list-style: none;
+}
 p#footer_email a {
   font-size: 16px;
   color: #777;
