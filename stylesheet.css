@@ -246,7 +246,7 @@ p.subheader_b{
   margin-bottom: 0;
 }
 .image_sets {
-  margin: 50px 0 0px 0;
+  margin:40px 0 0px 0;
 }
 .brand_image {
   margin: 5px 0;
@@ -419,6 +419,9 @@ p#copywrite {
 
 /* Desktop Styles */
 @media all and (min-width: 1090px){
+  .image_sets_no_margins {
+    margin:10px 0 0px 0;
+  }
   #regular_nav a:hover{
     text-decoration: underline;
     display: block;
