@@ -340,9 +340,7 @@ p#copywrite {
 .people {
   margin-bottom: 5px;
 }
-#about_content {
 
-}
 div.client_list {
   float: none;
   margin-right: 50px;
@@ -355,6 +353,7 @@ div.client_list {
   font-size: 16px;
   line-height: 26px;
   color: #777777;
+  z-index: 1;
 }
 p.clients_description_sub {
   margin-bottom: 20px;
@@ -412,6 +411,7 @@ p.press_description{
   top: 15px;
   right: 8px;
 }
+
 /* Tablet Styles */
 @media all and (min-width: 768px){
   img#tiny_logo{
@@ -477,6 +477,7 @@ p.press_description{
 
 /* Desktop Styles */
 @media all and (min-width: 1090px){
+
   div.client_list {
     float: left;
     margin-right: 50px;
