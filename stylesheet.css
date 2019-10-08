@@ -354,6 +354,7 @@ div.client_list {
 #about_content p.sub_bio {
   font-size: 16px;
   line-height: 26px;
+  color: #777777;
 }
 p.clients_description_sub {
   margin-bottom: 20px;
