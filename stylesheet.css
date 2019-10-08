@@ -349,6 +349,7 @@ div.client_list {
 #about_header {
   margin-bottom: 50px;
 }
+
 #about_content p.sub_bio {
   font-size: 16px;
   line-height: 26px;
@@ -411,6 +412,7 @@ p.press_description{
   top: 15px;
   right: 8px;
 }
+
 
 /* Tablet Styles */
 @media all and (min-width: 768px){
