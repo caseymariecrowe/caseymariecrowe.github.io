@@ -586,7 +586,9 @@
 
 <!--ABOUT HTML-->
     <script type="text/html" id="about_page">
-      <img class="flair" src="images/portrait.jpg" srcset="images/portrait.jpg 1x, images/portrait@2x.jpg 2x" alt="Kevin David Crowe" class="work_image portrait"/>
+      <div class="portrait">
+        <img class="flair" src="images/portrait.jpg" srcset="images/portrait.jpg 1x, images/portrait@2x.jpg 2x" alt="Casey Marie Crowe" class="work_image portrait"/>
+      </div>
       <div id="about_content">
         <div id="about_header">
           <div id="description">
@@ -594,41 +596,43 @@
             <p class="sub_bio"> I'm always looking for new opportunities to work on meaningful software with a team of talented product-oriented people. I am deeply experienced in the mobile and web space and I've got a diverse work history helping shape products and brands at successful startups as well as larger organizations. </br> </br> My skills include strong UX/UI abilities, writing thorough and well researched specs for feature development, animated prototyping, communicating and working closely with developers on implementation, and a strong sense of visual taste and style. Most importantly, I know how to ship products, test them, and create effective deliverables for growth, conversion and user experience.</p>
           </div>
         </div>
+        <div id="resume">
+          <p class="button resume_button"><a style="text-decoration: none;"class="clickable js-animate-color" href="image/CaseyMarieCrowe_CV.pdf" download>Download My Résumé:</a></p>
+        </div>
         <div class="client_list">
           <p class="clients_description">Clients: </p>
           <p class="clients_description_sub">Some of the following brands I've worked with both in-house and indepentantly.</p>
-          <div class="client_item"><img class="about_logos" src="images/work/about/microsoft_small.png"/></div>
-          <div class="client_item"><img class="about_logos" src="images/work/digital_products/skype_small.png"/></div>
-          <div class="client_item"><img class="about_logos" src="images/work/about/mtv_small.png"/></div>
-          <div class="client_item"><img class="about_logos" src="images/work/about/iac_small.png"/></div>
-          <div class="client_item"><img class="about_logos" src="images/work/about/ween_small.png"/></div>
-          <div class="client_item"><img class="about_logos" src="images/work/about/vimeo_small.png"/></div>
-          <div class="client_item"></div>
-          <div class="client_item"></div>
+          <div class="client_logos cf">
+            <div class="client_item"><img class="about_logos" src="images/work/about/microsoft_small.png"/></div>
+            <div class="client_item"><img class="about_logos" src="images/work/digital_products/skype_small.png"/></div>
+            <div class="client_item"><img class="about_logos" src="images/work/about/mtv_small.png"/></div>
+            <div class="client_item"><img class="about_logos" src="images/work/about/iac_small.png"/></div>
+            <div class="client_item"><img class="about_logos" src="images/work/about/ween_small.png"/></div>
+            <div class="client_item"><img class="about_logos" src="images/work/about/vimeo_small.png"/></div>
+          </div>
         </div>
-        <div id="education">
-          <p class="education_description">Education:</p>
+        <div class="education">
+          <p class="education_description about_section">Education:</p>
           <p class="school">The School of Visual Arts</p>
           <p class="major">Graphic Design & Advertising // 2007-2009</p>
           <p class="school">FLCC</p>
           <p class="major">Fine Art & Illustration // 2005-2007</p>
         </div>
-        <!-- <div class="press_logos">
-          <p class="press_description">Select Press:</p>
-          <div class="press_item"><p class="press_title">Vox</p></div>
-          <div class="press_item"><p class="press_title">Forbes</p></div>
-          <div class="press_item"><p class="press_title">TechCrunch</p></div>
-          <div class="press_item"><p class="press_title">The Next Web</p></div>
-          <div class="press_item"><p class="press_title">The Verge</p></div>
-          <div class="press_item"><p class="press_title">New York Times</p></div>
-        </div> -->
+        <div class="press_section">
+          <p class="press_description"><b>Select Press:</b></p>
+          <div class="press_item"><a target="_blank" href="https://www.vox.com/2018/1/7/16855816/bj-novak-kiyo-social-media-app" class="press_title clickable js-animate-color"><b>The Next Web:</b> B.J. Novak’s list-making startup is back with a new social media app</p></div>
+          <div class="press_item"><a target="_blank" href="https://techcrunch.com/2015/02/05/fundera-has-secured-12m-in-funding-for-more-than-300-small-businesses/" class="press_title clickable js-animate-color"><b>TechCrunch:</b> Fundera Has Secured $12M In Funding For More Than 300 Small Businesses</p></div>
+          <div class="press_item"><a target="_blank" href="https://gizmodo.com/groupme-our-favorite-group-chat-app-ever-is-now-bette-5958582"class="press_title clickable js-animate-color"><b>Gizmodo:</b> GroupMe, Our Favorite Group Chat App Ever, Is Now Better</p></div>
+          <div class="press_item"><a target="_blank" href="https://www.fastcompany.com/1842369/groupme-launches-experiences-makes-partying-and-planning-friends-much-easier" class="press_title clickable js-animate-color"><b>Fast Company:</b> GroupMe Launches Experiences, Makes Partying And Planning With Friends That Much Easier</p></div>
+          <div class="press_item"><a target="_blank" href="https://www.theverge.com/2013/3/7/4076590/groupme-updates-messaging-app-money-transfers-gallery-view"class="press_title clickable js-animate-color"><b>The Verge:</b> GroupMe updates messaging client with in-app money transfers, gallery view</p></div>
+        </div>
       </div>
     </script>
 
 <!--FOOTER-->
     <footer>
     <ul class="footer_links">
-      <p style="font-weight: 600; color: #000;" id="">More Work:</p>
+      <p style="font-weight: 600; color: #000;" id="">Keep Exploring:</p>
       </br>
       <li class="nav_item_1 clickable"><a class="js-animate-color nav_item clickable" >Product</a></li>
       <li class="nav_item_2 clickable"><a class="js-animate-color nav_item clickable">Branding</a></li>
@@ -636,7 +640,6 @@
       <li class="nav_item_4 clickable"><a class="js-animate-color nav_item clickable">Art Direction</a></li>
       <li class="nav_item_5 clickable"><a class="js-animate-color nav_item clickable">About</a></li>
     </ul>
-    </br>
     </br>
     </br>
       <p id="">Wanna work together?</p>

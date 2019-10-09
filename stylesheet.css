@@ -276,6 +276,10 @@ p.button {
   line-height: 0;
   text-decoration: none;
 }
+
+#resume{
+  height: 100px;
+}
 a.button:hover {
   border-color: #000;
 }
@@ -338,32 +342,33 @@ p#copywrite {
   margin-bottom: 5px;
 }
 
-div.client_list {
-  float: none;
-  margin-right: 50px;
-  width: 100%;
-}
 #about_header {
   margin-bottom: 50px;
 }
-
 #about_content p.sub_bio {
   font-size: 16px;
   line-height: 26px;
   color: #777777;
   z-index: 1;
 }
+.about_section {
+  margin-bottom: 30px;
+}
+.cf:before,
+.cf:after  {
+  content: " ";
+  display: table;
+  clear: both;
+}
+div.client_list{
+  margin-bottom: 30px;
+}
 p.clients_description_sub {
   margin-bottom: 20px;
   font-size: 13px;
   color: #777777;
-  max-width: 280px;
 }
 p.clients_description {
-  margin-bottom: 15px;
-  font-weight: 600;
-}
-p.education_description {
   margin-bottom: 10px;
   font-weight: 600;
 }
@@ -373,29 +378,38 @@ img.about_logos{
   margin-right: 35px;
   margin-bottom: 20px;
 }
-#education {
-  margin-bottom: 50px;
+.education {
   clear:left;
+  margin-bottom: 40px;
 }
-#education p.school {
+p.education_description {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.education p.school {
   font-weight: 600;
   font-size: 13px;
-  color: #999999;
+  color: #777777;
 }
-#education p.major {
+.education p.major {
   font-weight: 300;
   font-size: 13px;
   color: #777777;
   padding-bottom: 10px;
 }
-div.press_logos {
-  margin-top: 130px;
+div.press_section {
+  margin-top: 0px;
+  margin-bottom: 75px;
+  clear: left;
 }
-p.press_description{
-    clear: left;
-    margin-bottom: 10px;
-    font-weight: 600;
-    margin-bottom: 25px;
+div.press_item a {
+  font-size: 13px;
+  margin-bottom: 15px;
+  display:block;
+  color: #999999
+}
+.press_section p {
+  margin-bottom:10px;
 }
 #pdf_icon {
   width: 22px;
@@ -405,7 +419,6 @@ p.press_description{
 }
 img.flair {
   width: 100%;
-  margin-top: 90px;
 }
 #print_content, #illustrations_content {
   padding: 120px 25px 0px;
@@ -476,7 +489,7 @@ ul.footer_links li{
     text-decoration:underline;
   }
   #content {
-    max-width: 755px;
+    max-width: 775px;
   }
   footer {
     text-align: right;
@@ -485,22 +498,17 @@ ul.footer_links li{
   #content {
     margin-left: 160px;
   }
-  #about_content {
-    padding: 0px 25px 0px;
+  img.flair{
+    margin-top: 115px;
+  }
+  .portrait {
+    padding: 0 30px;
   }
 }
 
 
 /* Desktop Styles */
 @media all and (min-width: 1090px){
-  img.flair{
-    margin-top: 115px;
-  }
-  div.client_list {
-    float: left;
-    margin-right: 50px;
-    width: 50%;
-  }
   #education {
     clear: none;
   }
@@ -520,7 +528,6 @@ ul.footer_links li{
   #about_content {
     padding: 0px 25px 0px;
   }
-
   #header {
     height: 0;
   }
