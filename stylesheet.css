@@ -419,6 +419,7 @@ div.press_item a {
 }
 img.flair {
   width: 100%;
+  margin-top: 90px;
 }
 #print_content, #illustrations_content {
   padding: 120px 25px 0px;
@@ -499,7 +500,7 @@ ul.footer_links li{
     margin-left: 160px;
   }
   img.flair{
-    margin-top: 115px;
+    margin-top: 118px;
   }
   .portrait {
     padding: 0 30px;
