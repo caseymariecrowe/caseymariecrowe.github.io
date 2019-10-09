@@ -417,7 +417,12 @@ img.flair {
 #about_content{
   padding: 10px 25px 0px;
 }
-
+#home_page_content, #digital_products_content {
+  margin-top: 20px;
+}
+ul.footer_links li{
+  padding-bottom: 10px;
+}
 
 /* Tablet Styles */
 @media all and (min-width: 768px){
