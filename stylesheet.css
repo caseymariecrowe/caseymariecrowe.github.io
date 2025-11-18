@@ -114,6 +114,9 @@ img.oldie {
   margin-bottom: 10px;
   line-height: 42px;
 }
+#description a.work_tags {
+  color: #888;
+}
 p.small {
   font-size: 18px;
   line-height: 26px;
